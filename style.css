@@ -1,0 +1,33 @@
+header {
+    font-size: 12px;
+}
+tittle {
+    background-color:#7759DE;
+    font-size: 25px;
+
+}
+ main {
+        background-color: #FB4C44;
+          font-size: 25px;
+          width: fit-content
+ }
+
+body {
+    background-color: #47CAE6;
+}
+
+      
+      p {
+
+        display: grid;
+        
+        grid-template-columns: 2fr 1fr 2fr;
+        
+        }
+        
+ 
+        p img {
+        
+        grid-column: span 1;
+        
+        }
